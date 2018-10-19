@@ -3,6 +3,10 @@ Sample application to demonstrate the integration of WSO2 IS with Cordova applic
 The application is implemented based on [AppAuth-JS](https://github.com/openid/AppAuth-JS) library with modern best practices. PKCE enabled OAuth 2.0 communication flow is used and the functionalities authorization and token handling are demonstrated through the application.
 
   <img src="https://user-images.githubusercontent.com/13478571/47021072-58268400-d178-11e8-8252-78f30567ece4.PNG" width="375" height="667" title="img_0842"> <img src="https://user-images.githubusercontent.com/13478571/47021109-6bd1ea80-d178-11e8-98f9-987eb0a8940d.PNG" width="375" height="667" title="img_0843">
+  
+## Prerequisites
+#### Install Apache Cordova
+Apache Cordova is an open-source mobile development framework. It allows you to use standard web technologies - HTML5, CSS3, and JavaScript for cross-platform development. Applications execute within wrappers targeted to each platform, and rely on standards-compliant API bindings to access each device's capabilities such as sensors, data, network status, etc. Refer the documentation for [installation guide](https://cordova.apache.org/docs/en/latest/guide/cli/index.html).
 
 ## Configuring the WSO2 Identity Server
 1. Download the latest version of WSO2 Identity Server from the [official website](https://wso2.com/identity-and-access-management). Follow the [installation guide](https://docs.wso2.com/display/IS570/Installation+Guide) to install and get started.
